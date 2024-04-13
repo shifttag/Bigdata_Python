@@ -23,7 +23,7 @@ plt.plot(부동산['시점'],부동산['서울'], linestyle='-', label='서울')
 plt.plot(부동산['시점'],부동산['부산'], linestyle='-', label='부산')
 plt.plot(부동산['시점'],부동산['경기'], linestyle='-', label='경기')
 
-plt.ylim(80,120)
+plt.ylim(90,110)
 
 plt.title("부동산 가격")
 plt.legend()

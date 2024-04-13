@@ -21,6 +21,7 @@ print(total_mean)
 matplotlib.rcParams['font.family'] ='Malgun Gothic'
 matplotlib.rcParams['axes.unicode_minus'] =False
 
+plt.title('서울로 전입한 사람들의 전입 사유')
 sns.barplot(x ='전입사유별', y='total',data=a)
 
 
